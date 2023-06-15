@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+        integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="input">0</div>
+        <div class="calculator">
+            <button class="button"  data-action="clear">C</button>
+            <button class="button">7</button>
+            <button class="button">4</button>
+            <button class="button">1</button>
+            <button class="button">00</button>
+            <button class="button" data-action="percentage">%</button>
+            <button class="button">8</button>
+            <button class="button">5</button>
+            <button class="button">2</button>
+            <button class="button">0</button>
+            <button class="button" data-action="delete">
+                <img src="./delete-left-solid.svg" alt="">
+            </button>
+            <button class="button">9</button>
+            <button class="button">6</button>
+            <button class="button">3</button>
+            <button class="button" data-action="decimal">.</button>
+            <button class="button" data-action="divide">/</button>
+            <button class="button" data-action="multiply">*</button>
+            <button class="button" data-action="subtract">-</button>
+            <button class="button" data-action="add">+</button>
+            <button class="button" data-action="calculate">=</button>
+        </div>
+    </div>
+    <script src="./calculator.js" defer></script>
+
+</body>
+
+</html>
